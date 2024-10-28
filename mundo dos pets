@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mundo dos pets: Tudo que seu pet precisa</title>
+	<!--Vinculando o css externo -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h>Mundo dos pets</h>
+	</header>
+
+	<section>
+		<p class=> O nosso petshop tem como objetivo ter os melhores cuidados com o seu pet</p>
+		<p>bem vindo ao pet.</p>
+	</section>
+
+	<footer>
+		<p id="rodape"> Isso permite colocar um rodapé na página.</p>
+	</footer>
+</body>
+</html>
+/* Estilos gerais para todo o corpo do texto */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0ddee;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+	background-color:#c171b8;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Estilo para o parágrafo com a classe destaque */
+.destaque {
+	color: #ff0000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Estilo específico para o parágrafo com o ID rodapé */
+#rodape {
+	font-size: 14px;
+	color: #ccc;
+}
